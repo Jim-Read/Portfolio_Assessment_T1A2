@@ -1,0 +1,199 @@
+                                                    /* mobile options */
+
+@media only screen and (min-width: 0) and (max-width: 800px) {                        
+.menu_links,
+div.menu_icons,
+.text_body,                                                    /* Turn Off displays under 500px mobile screen */
+div.container {
+  display: none;}
+
+
+                                                               /* background options */
+html { 
+  background-image: url("https://i.imgur.com/e47B3Ct.gif");
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;}
+                                                               /* Mobile Head and Foot settings */        
+.web_footer{
+  width: 100%;
+  position: fixed;        
+  background: #000;
+  padding: 10px 0;
+  color: #fff;
+  padding-bottom: 0px;}
+
+.web_footer{
+  bottom: 0;
+  left: 0;}
+
+div.footer_text {
+  font-size: 24px;
+  font-family: 'Orbitron', sans-serif;
+  font-weight: 400;
+  text-align: right;
+  padding-right: 25px;}
+
+.foot_home {
+  display: inline-block;
+  justify-content: center;
+  color: #fff;}
+                                                                /* mobile icon sizing and placement */
+div#mobile_top_menu {
+  background-color: #000;
+  margin: 0px 0 0px 0;
+  padding: 2px 2px 2px 2px;
+  top: 0;
+  left: 0;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  font-size: 94px;
+  position: fixed;}
+
+i.fa {
+  font-size: 110px;
+  color: #fff;}
+                                                            /*  text body sizing */
+section#mobile_title_txt,
+#contact_info_mobile {
+  margin-top: 150px;}
+
+h1#mobile_header_one {
+  background-color: #dcdcdc;
+  color: #000;
+  font-family: 'Orbitron', sans-serif;
+  font-weight: 400;
+  font-size: 46px;
+  text-align: center;}
+
+#h2_titles_mobile {
+  font-family: 'Orbitron', sans-serif;
+  font-weight: 400;
+  font-size: 46px;
+  text-align: center;}
+
+#mobile_header_txt {
+  color: #fff;
+  font-weight: 400;
+  font-size: 46px;}
+                      /* Mobile home animation */
+div.mobile_pics {
+  margin-top: 90px; 
+  margin-bottom: -6%;
+  padding-top: 25px; 
+  padding-bottom: 10px;
+  margin-right: 50%
+  width: 800px;
+  height: 500px;
+  animation: pic_change 60s;
+  animation-iteration-count: infinite;
+  animation-direction: forward;
+  background-repeat: no-repeat;
+  background-size: auto;
+  background-position: center;}
+
+@keyframes pic_change {
+  0%   {background-image: url("img/a.jpg");}
+  5%   {background-image: url("img/a.jpg");}
+  10%   {background-image: url("img/a.jpg");}
+  20%   {background-image: url("img/b.jpg");}
+  30%   {background-image: url("img/c.jpg");}
+  40%   {background-image: url("img/c.jpg");}
+  50%  {background-image: url("img/a.jpg");}
+  60%  {background-image: url("img/a.jpg");}
+  70%  {background-image: url("img/b.jpg");}
+  80% {background-image: url("img/b.jpg");}
+  90%   {background-image: url("img/c.jpg");}
+  100%   {background-image: url("img/c.jpg");}}
+                                                /*mobile home setings */
+.index_mobile_txt {
+  background-color: #dcdcdc;
+  margin-left: 5%;
+  margin-right: 5%;
+  display: flex;
+  flex-direction: column-reverse;}
+
+div.mobile_container {
+  background-color: #dcdcdc;} 
+
+img.userface {
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;}
+
+div.mobile_pics {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  font-size: 55px;}
+
+
+i.html_icon,
+i.python_icon,
+i.css_icon  {
+  padding-top: 35px;
+  font-size: 75px;
+  display: inline;
+  color: black;}
+
+
+p.p_mobile_txt2 {
+  font-size: 44px;
+  text-align: center;
+  margin-bottom: 5px;}
+
+                                                      /* page (headings) */
+#page_titles_mobile {
+  background-color: #dcdcdc;
+  margin-top: 150px;}
+
+                                                      /* Clickable drop down stylings */
+                                                      /* items to click within page (headings) */
+div.contact_text {
+  color: #fff;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 46px;
+  font-family: 'Orbitron', sans-serif;
+  font-weight: 400;}
+
+                                                      /* colour when clicked or hovered over */
+
+.contact_colour:hover {
+  color: #ff6600;
+  font-family: 'Orbitron', sans-serif;
+  font-weight: 700;
+  font-size: 46px;}
+                                                          /* content within the hidden and now exposed text */
+
+p.hidden_p_txt {
+  color: #fff;
+  display: inline-block;
+  font-size: 28px;
+  font-weight: bold;
+  text-align: left;
+  justify-content: center;}
+
+p.hidden_p_txt {
+  font-size: 38px;}
+       
+                                                    /* information that needs to be clicked on to reveal information*/ 
+
+#box, #box2, #box3, #box4, #box5, #box6, #box7, #box8, #box9, #box10, #box11 {
+  display: none;}
+
+#container #info { 
+  display: none;}
+                                                    /* one box to rule them all does not apply */
+#box:checked + #container #info, #box2:checked + #container #info, #box3:checked + #container #info, #box4:checked + #container #info, #box5:checked + #container #info, #box6:checked + #container #info, #box7:checked + #container #info, #box8:checked + #container #info, #box9:checked + #container #info, #box10:checked + #container #info, #box11:checked + #container #info {
+  display: block;}
+
+                                                    /* blog stylings -mobile */
+
+h2#h2_mobile_date {
+  color: #FFFF00;
+  font-size: 46px;}
+
+}     

@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html class="background">
+  <head>
+    <title>Contact</title>
+    <link href="styles.css" type="text/css" rel="stylesheet" integrity="sha384-lU3Gp+vrUIeVP71zN1ivKKN1VhBlRhCP9+aPDoX+ieBF1vuhDekI7lOuSSSHMFnL">
+    <link href="styles2.css" type="text/css" rel="stylesheet" integrity="sha384-D0FwIQlbiGEdsvLsi2ElCH6yTRWzqwOOTukKrNdack/6yw++QQnAsYQeSoVE9LVO"/>
+    <link href="normalize.css" type="text/css" rel="stylesheet" integrity="sha384-M86HUGbBFILBBZ9ykMAbT3nVb0+2C7yZlF8X2CiKNpDOQjKroMJqIeGZ/Le8N2Qp"/>    
+    <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@400;700&display=swap" rel="stylesheet"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"/><!--font awesome for propreitry icons -->
+    <meta name="viewport" content="width=device-width, initial-scale=0.55">    
+  </head>
+<body>
+  <header class="header"> 
+    <nav>
+      <section class="menu_links">
+        <div class="menu_items">       <!--Menu links in Header* Top Left  --> 
+          <a class="color_menu_items mobile_size_text" href="./index.html" target="./blank" alt="Home Button">Home</a>
+          <a class="color_menu_items" href="./contact.html" target="./blank" alt="Home Button">Contact</a>
+          <a class="color_menu_items" href="./eande.html" target="./blank" alt="Home Button">Study & Work</a>
+          <a class="color_menu_items" href="./projects.html" target="./blank" alt="Projects">Projects</a>
+          <a class="color_menu_items" href="./blog.html" target="./blank" alt="Home Button">Blog</a>
+          <a class="color_menu_items" href="./aboutme.html" target="./blank" alt="Home Button">About Me</a>
+        </div>
+        <div class="menu_icons">        <!--font awesome icons on Top Right of Header -->
+          <a id="icon_color_menu" href="" target="./blank"><i class="fa fa-linkedin-square color_menu_icons"></i></a>
+          <a id="icon_color_menu" href="" target="./blank"><i class="fa fa-github color_menu_icons"></i></a>
+          <a id="icon_color_menu" href="" target="./blank"><i class="fa fa-bitcoin color_menu_icons"></i></a>
+          <a id="icon_color_menu" href="" target="./blank"><i class="fa fa-twitter-square color_menu_icons"></i></a>
+        </div>
+      </section>
+    </nav>
+    <nav class="mobile_menu">           <!-- Mobile Menu - font awesome icons as placeholders -->
+      <div id="mobile_top_menu">   
+        <a href="./contact.html"><i class="fa fa-address-card icon"></i></a>
+        <a href="./eande.html"><i class="fa fa-object-group icon"></i></a>
+        <a href="./projects.html"><i class="fa fa-terminal terminal"></i></a> 
+        <a href="./blog.html"><i class="fa fa-rss-square icon"></i></a>
+        <a href="./aboutme.html"><i class="fa fa-user-circle icon"></i></a>
+      </div>
+    </nav>
+  </header>
+                                                                       <!-- Main body code for page-->
+<article id="contact_info_mobile">
+<ul>
+  <li>
+    <section>
+      <input type="checkbox" id="box"/>
+      <label id="container" for="box">
+        <div class="contact_colour contact_text" id="button">Linkedin</div>
+        <div id="info">
+          <a href="https://au.linkedin.com/" target="./blank">
+          <p class="hidden_p_txt">www.linkedin.com</p>
+          </a>       
+        </div>
+      </label>
+    </section>
+  </li>
+  <li>
+    <section>
+      <input type="checkbox" id="box2"/>
+      <label id="container" for="box2">
+        <div class="contact_colour contact_text" id="button">Github</div>
+        <div id="info">
+          <a href="www.https://github.com/" target="./blank">
+          <p class="hidden_p_txt">www.github.com</p>
+          </a>       
+        </div>
+      </label>
+    </section>
+  </li>
+  <li>
+    <section>
+      <input type="checkbox" id="box3"/>
+      <label id="container" for="box3">
+        <div class="contact_colour contact_text" id="button">Twitter</div>
+        <div id="info">
+          <a href="www.twitter.com" target="./blank">
+          <p class="hidden_p_txt">www.twitter.com</p>
+          </a>       
+        </div>
+      </label>
+    </section>
+  </li>
+  <li>
+    <section id="contact_me">
+      <input type="checkbox" id="box4"/>
+      <label id="container" for="box4">
+        <div class="contact_colour contact_text" id="button">Email</div>
+        <div id="info">
+          <a href="" target="./blank">
+          <p class="hidden_p_txt">Jim.Read@mail.com</p>  
+          </a>        
+        </div>
+      </label>
+    </section>
+  </li>
+</ul>
+</article>
+                                               <!-- Form to send me txt -->
+<section>
+  <div class="container">
+    <form action="" class="contact_area">
+      <label for="fname">Please include your name</label>
+      <input type="text" id="fname" name="firstname" placeholder="Please include your name and email">
+      <label for="subject">Subject</label>
+      <textarea id="subject" name="subject" placeholder="Write your message here ..." style="height:200px"></textarea>
+      <input type="submit" value="Submit">
+    </form>
+  </div>
+</section>
+                                                                      <!-- Footer for web and mobile -->
+<footer>
+  <div class="web_footer">
+    <div class="footer_text">Jim Read</div>        
+  </div>
+</footer>  
+</body>
+</html>

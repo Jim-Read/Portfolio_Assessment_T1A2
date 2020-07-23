@@ -1,0 +1,56 @@
+/* Iframe with code examples of stuff ive been working on **** hover over menu drop down */
+/*default page head and foot for page */
+.web_menus,
+.menu_links,
+.menu_items {
+  display: none;}
+
+#mobile_icon_white {
+  color: #fff;}
+
+#menu-bar {
+  padding-left: 0;
+  position: fixed;
+  top: 0;}
+
+h1 {
+  background-color: #000;
+  color: #fff;
+  font-size: 26px;
+  min-width: 415px;}
+
+/*  Mobile Footer section  */
+
+.foot_menu_mobile {
+    background-color: #000;
+    position: fixed;
+    bottom: 0;
+    min-width: 75px;}
+
+                          /* Mobile Slide down button */
+ul {
+  list-style: none;}
+
+ul ul {
+  display: none;
+  padding: 0;
+  margin: 0;}
+
+ul li {
+  display: inline-block;
+  position: relative;}
+
+ul li:hover ul {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: center;
+  background-color: #000;
+  padding-left: 3px;
+  padding-right: 3px;}
+
+span {
+  background-color: #000;
+  padding-right: 13px;
+  padding-left: 5px;}
+

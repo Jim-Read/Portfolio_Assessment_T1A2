@@ -1,0 +1,285 @@
+/* ************************************** desktop options ******************************** */
+
+@media only screen and (min-width: 810px) and (max-width: 5000px) {
+
+nav.mobile_menu,
+section.index_mobile {                                /* turning off mobile menus */
+  display: none;}
+                                                    /* Background and display settings */
+
+html{ 
+  background-image: url("https://i.imgur.com/f6FMZwP.gif");
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;}
+ 
+                                        /* default page layout with header/footer and menus styles */
+#contact_info_mobile {
+  margin-top: 5%;}
+
+.header, .web_footer{
+  width: 100%;
+  position: fixed;        
+  background: #000;
+  padding: 10px 0;
+  color: #fff;
+  padding-bottom: 0px;}
+
+.header{
+  top: 0;}
+
+.web_footer{
+  bottom: 0;}
+
+div.footer_text {
+  font-size: 16px;
+  font-family: 'Orbitron', sans-serif;
+  font-weight: 400;
+  text-align: right;
+  padding-right: 25px;
+  padding-bottom: 1px;}
+
+.footer_text {
+  padding-left: 10px;}
+
+.menu_items{
+  display: inline-block;}
+
+.menu_links{
+  width: 100%;
+  margin: 0 auto; 
+  display: inline-block;}
+
+article.work_list {
+  padding-bottom: 50px;}
+
+nav a, div.contact_text{         /* Menu Links */
+  color: #fff;
+  text-decoration: none;
+  padding: 7px 25px;
+  display: inline-block;
+  font-size: 26px;
+  font-family: 'Orbitron', sans-serif;
+  font-weight: 400;}
+
+.menu_icons {                    /* Menu Icons */
+  float: right;
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;}
+  
+.display_header {
+  margin-top: 100px;
+  color: #fff;
+  font-size: 26px;
+  text-align: center;}
+                                /* Colour change to text on Hover */
+.color_menu_items:hover,
+.contact_colour:hover {
+  color: #ff6600;
+  font-family: 'Orbitron', sans-serif;
+  font-weight: 700;
+  font-size: 24px;}
+
+
+.contact_colour_blog:hover {
+  color:  #ff6600;
+  font-family: 'Orbitron', sans-serif;
+  font-weight: 700; }
+
+a.foot_home:hover,
+#pdf_font:hover {
+  color:  #ff6600;}
+
+a#icon_color_menu:hover {
+  color: #ff6600;}
+                                  /* landing/and other text info page styles and animations */
+
+.h2_menu {
+  font-family: 'Orbitron', sans-serif;
+  font-weight: 700;}
+  
+p.txt {
+  padding-left: 2%;
+  padding-right: auto;
+  display: inline-block;
+  margin-right: 15%;
+  font-size: 24px;}
+
+                             /* animation on start page */
+
+div.pic {
+  margin-top: 100px;  
+  margin-left: 36%;
+  margin-right: 5%;
+  width: 800px;
+  height: 500px;
+  animation: pic_change 60s;
+  animation-iteration-count: infinite;
+  animation-direction: forward;
+  background-repeat: no-repeat;
+  background-size: auto;
+  background-position: center;}
+
+@keyframes pic_change {
+  0%   {background-image: url("img/q1.png");}
+  5%   {background-image: url("img/q1.png");}
+  10%   {background-image: url("img/q1.png");}
+  20%   {background-image: url("img/q2.png");}
+  30%   {background-image: url("img/q2.png");}
+  40%   {background-image: url("img/q2.png");}
+  50%  {background-image: url("img/q3.png");}
+  60%  {background-image: url("img/q3.png");}
+  70%  {background-image: url("img/q4.png");}
+  80% {background-image: url("img/q4.png");}
+  90%   {background-image: url("img/q5.png");}
+  100%   {background-image: url("img/q5.png");}}
+
+                                  /* hidden drop down txt stylings */
+p.hidden_p_txt {
+  padding-left: 2%;
+  padding-right: 2%;
+  display: inline-block;
+  margin-right: 5%;
+  font-size: 28px;
+  background-color: #dcdcdc;
+  opacity: 0.8;
+  text-align: left;
+  justify-content: center;}
+
+p_drop_down {
+  font-size: 28px;}
+
+p.intro_text {
+  font-size: 24px;
+  color: #fff;}
+
+div#button {
+  font-family: 'Orbitron', sans-serif;
+  font-weight: 700;}
+
+                                /* Headers for menus and titles */
+
+h1.header_one,
+h2.header_two {
+  padding-top: 1%;
+  padding-left: 1%;
+  padding-bottom: 1%;
+  font-family: 'Orbitron', sans-serif;
+  font-weight: 400;
+  font-weight: bold;
+  background-color: #dcdcdc;
+  opacity: 0.6;
+  text-align: center;
+  color: #000;}
+
+h2.header_two {
+  display: inline-block;}
+
+.text_body {
+  display: flex;
+  flex-direction: row;}
+
+h2.h2_menu2, h2.h2_menu3, h2.h2_menu {
+  color: #000;
+  background-color: #dcdcdc;
+  display: block;
+  opacity: 0.9;
+  text-align: center;
+  font-family: 'Orbitron', sans-serif;
+  font-weight: 700;}
+
+                                                    /* blog stylings */
+#pdf_font{
+  color: #fff;
+  background-color: #000;
+  font-size: 24px;
+  padding: 1% 1% 1% 1%;
+  margin-left: 500px;
+  position: relative;}
+
+#hidden {
+  display: none;
+  height: auto;
+  background: #fff;}
+
+:checked + #hidden {
+  display: block;}
+
+#blog_picture {
+  width: 300px;
+  height: 300px;}
+
+.button_collapse_colour {
+  background-color: #696969;
+  text-align: center;
+  font-size: 24px;
+  font-weight: bold;}
+
+.blog_sections {
+  border-style: solid;
+  text-justify: auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;}
+
+.span_text {
+  font-size: 20px;
+  font-family: 'Orbitron', sans-serif;
+  font-weight: 400;}
+
+.span_text_bold {
+  font-size: 20px;
+  font-family: 'Orbitron', sans-serif;
+  font-weight: 700;}
+
+                          /* Content that needs to be clicked on to reveal information*/ 
+
+#box, #box2, #box3, #box4, #box5, #box6, #box7, #box8, #box9, #box10, #box11 {
+  display: none;}
+
+#container #info { 
+  display: none;}
+                 
+#box:checked + #container #info, #box2:checked + #container #info, #box3:checked + #container #info, #box4:checked + #container #info, #box5:checked + #container #info, #box6:checked + #container #info, #box7:checked + #container #info, #box8:checked + #container #info, #box9:checked + #container #info, #box10:checked + #container #info, #box11:checked + #container #info{ display: block;}
+
+                            /* Contact Page respond box settings */  
+input[type=text], select, textarea {
+  width: 100%; 
+  padding: 12px; 
+  border: 1px solid #ccc; 
+  border-radius: 4px; /* Rounded borders */
+  box-sizing: border-box; 
+  margin-top: 6px; 
+  margin-bottom: 16px; 
+  resize: vertical;}
+
+
+input[type=submit] {
+  background-color: #696969	;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;}
+
+
+input[type=submit]:hover {
+  background-color: #696969	;}
+
+                  /* Add a background color and some padding around the form */
+.container {
+  border-radius: 5px;
+  background-color: #f2f2f2;
+  padding: 20px;
+  display: flex;
+  justify-content: center;
+  margin-left: 25%;
+  margin-right: 25%;}
+
+p.test_text2 {
+  font-size: 20px;}
+
+}
+
